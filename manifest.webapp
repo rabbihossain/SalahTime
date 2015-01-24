@@ -1,0 +1,17 @@
+{
+    "name": "Quran (English)",
+    "description": "Holy Al-Quran with English translation",
+    "launch_path": "/index.html",
+    "icons": {
+      "60": "/images/60.png",
+      "90": "/images/90.png",
+      "120": "/images/120.png",
+      "128": "/images/128.png",
+      "256": "/images/256.png"
+    },
+    "developer": {
+        "name": "Krossware Limited",
+        "url": "http://www.krossware.com"
+    },
+    "default_locale": "en"
+}    

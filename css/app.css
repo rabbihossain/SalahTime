@@ -1,0 +1,45 @@
+.arabic-text {
+	font-size:2em;
+	background-color: #00900C;
+	color: #fff;
+	padding: 1em;
+	line-height: 1.3em;
+	direction: rtl;
+}
+
+.english-text {
+	font-size: 1.2em;
+	line-height: 1.2em;
+	background-color: white;
+	padding: 1em;
+	margin:0;
+	/*border-bottom: 1px solid green;*/
+}
+
+.padding {
+	margin: 0px;
+	padding: 0px;
+}
+
+.bar-header .title {
+	font-size: 1.4em;
+}
+
+h1.krossware {
+	color: #0095dd;
+	text-align: center;
+	font-size: 3em;
+}
+
+p.krossware {
+	text-align: center;
+	padding: 0 1em;
+}
+
+.highlighted-sura {
+	background-color: lightgreen;
+}
+
+#suralist:nth-child(2n) {
+	background-color: #F1FFF1;
+}
