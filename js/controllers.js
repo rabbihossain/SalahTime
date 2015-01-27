@@ -79,7 +79,7 @@ angular.module('app.controllers', ['LocalForageModule'])
         }, function(error) {
             alert(error.message);
         }, {
-            timeout: 10000
+            timeout: 60000
         });
     }
 
