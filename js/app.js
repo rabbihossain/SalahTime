@@ -1,4 +1,4 @@
-angular.module('app', ['ionic', 'app.controllers', 'app.services'])
+angular.module('app', ['ionic', 'app.controllers', 'app.services', 'LocalForageModule'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -30,20 +30,36 @@ angular.module('app', ['ionic', 'app.controllers', 'app.services'])
     
     .state('index', {
       url: '/index',
-      templateUrl: 'templates/index.tpl'
+      templateUrl: 'templates/index.tpl',
+      controller: 'SalatCtrl'
+
     })
 
     .state('about', {
       url: '/about',
       templateUrl: 'templates/about.tpl'
     })
-    
-    .state('surah', {
-      url: '/surah/:surahId',
-      templateUrl: 'templates/surah.tpl',
-      controller: 'SurahCtrl'
+
+    .state('about/krossware', {
+      url: '/about/krossware',
+      templateUrl: 'templates/about_kw.tpl'
     })
-    ;
+
+    .state('help', {
+      url: '/help',
+      templateUrl: 'templates/help.tpl'
+    })
+
+    .state('settings', {
+      url: '/settings',
+      templateUrl: 'templates/settings.tpl',
+      controller: 'SettingsCtrl'
+    })
+
+    .state('about/licenses', {
+      url: '/about/licenses',
+      templateUrl: 'templates/about_osi.tpl'
+    });
 
   // if none of the above states are matched, use this as the fallback
   

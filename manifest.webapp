@@ -1,6 +1,6 @@
 {
-    "name": "Quran (English)",
-    "description": "Holy Al-Quran with English translation",
+    "name": "SalahTime",
+    "description": "Get near accurate Salah / Namaz (Prayer) Times according to you geolocation (GPS)",
     "launch_path": "/index.html",
     "icons": {
       "60": "/images/60.png",
@@ -13,5 +13,11 @@
         "name": "Krossware Limited",
         "url": "http://www.krossware.com"
     },
-    "default_locale": "en"
+    "default_locale": "en",
+    "version": "1.0",
+    "permissions": {
+      "geolocation": {
+        "description": "For tracking you location to determine Salah Time."
+      }
+    }
 }    

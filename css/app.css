@@ -1,22 +1,4 @@
-.arabic-text {
-	font-size:2em;
-	background-color: #00900C;
-	color: #fff;
-	padding: 1em;
-	line-height: 1.3em;
-	direction: rtl;
-}
-
-.english-text {
-	font-size: 1.2em;
-	line-height: 1.2em;
-	background-color: white;
-	padding: 1em;
-	margin:0;
-	/*border-bottom: 1px solid green;*/
-}
-
-.padding {
+.nopadding .padding {
 	margin: 0px;
 	padding: 0px;
 }
@@ -36,10 +18,31 @@ p.krossware {
 	padding: 0 1em;
 }
 
-.highlighted-sura {
-	background-color: lightgreen;
+#lebuttonbar > a.button {
+	font-size:1.6em;
 }
 
-#suralist:nth-child(2n) {
-	background-color: #F1FFF1;
+table {
+	font-size:1.1rem;
+	line-height: 1.7rem;
+	margin: 0.8em 0;
+}
+
+#ledate {
+	text-align: center;
+	font-size: 1.1rem;
+}
+
+.wakt {
+	color: #AAA8A8;
+}
+
+.wakt.active {
+	color: #000;
+}
+
+.salattimecolor {
+	/*background-color: #66CC33;*/
+	color:#66CC33;
+	text-align: center;
 }
