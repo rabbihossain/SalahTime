@@ -114,7 +114,7 @@ angular.module('app.controllers', ['LocalForageModule'])
 
     $localForage.getItem('method').then(function(data) {
         if (!data) {
-            $localForage.setItem('method', 'Karachi');
+            $localForage.setItem('method', 'MWL');
             $scope.choice = "MWL";
         } else {
             $scope.choice = data;
