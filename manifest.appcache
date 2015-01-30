@@ -1,0 +1,24 @@
+CACHE MANIFEST
+# Fri Jan 30 06:05:46 BDT 2015
+
+index.html
+css/app.css
+lib/ionic/css/ionic.min.css
+lib/ionic/fonts/ionicons.eot
+lib/ionic/fonts/ionicons.svg
+lib/ionic/fonts/ionicons.ttf
+lib/ionic/fonts/ionicons.woff
+lib/ionic/js/ionic.bundle.min.js
+js/PrayTimes.js
+js/app.js
+js/controllers.js
+js/services.js
+js/moment.js
+lib/localforage.min.js
+lib/ionic/js/angular/angular-localForage.min.js
+templates/about.tpl
+templates/about_kw.tpl
+templates/about_osi.tpl
+templates/help.tpl
+templates/index.tpl
+templates/settings.tpl
